@@ -1,0 +1,18 @@
+{                                                                            
+    "Role": {                                                                
+        "AssumeRolePolicyDocument": {                                        
+            "Version": "2012-10-17",                                         
+            "Statement": {                                                   
+                "Action": "sts:AssumeRole",                                  
+                "Effect": "Allow",                                           
+                "Principal": {                                               
+                    "Service": "lambda.amazonaws.com"                        
+                }                                                            
+            }                                                                
+        },                                                                   
+        "RoleId": "AROAJIHSV5MDYSE4QVPQE",                                   
+        "CreateDate": "2017-05-16T19:08:38.198Z",                            
+        "RoleName": "hello-world-lambda-executor",                           
+        "Path": "/",                                                         
+        "Arn": "arn:aws:iam::883284976862:role/hello-world-lambda-executor"  
+    }                                                                        
